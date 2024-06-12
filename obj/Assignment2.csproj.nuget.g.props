@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\damon\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.10.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\damon\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Attribution.txt" Condition="Exists('$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Attribution.txt')">
+      <NuGetPackageId>TrentCOIS.Tools.Visualization.EntityViz</NuGetPackageId>
+      <NuGetPackageVersion>0.1.5</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Attribution.txt</TargetPath>
+      <DestinationSubDirectory>Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Attribution.txt</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Fonts\DungeonFont.ttf" Condition="Exists('$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Fonts\DungeonFont.ttf')">
+      <NuGetPackageId>TrentCOIS.Tools.Visualization.EntityViz</NuGetPackageId>
+      <NuGetPackageVersion>0.1.5</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Fonts\DungeonFont.ttf</TargetPath>
+      <DestinationSubDirectory>Resources\Fonts\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Fonts\DungeonFont.ttf</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Fonts\NotoEmoji-Bold.ttf" Condition="Exists('$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Fonts\NotoEmoji-Bold.ttf')">
+      <NuGetPackageId>TrentCOIS.Tools.Visualization.EntityViz</NuGetPackageId>
+      <NuGetPackageVersion>0.1.5</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Fonts\NotoEmoji-Bold.ttf</TargetPath>
+      <DestinationSubDirectory>Resources\Fonts\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Fonts\NotoEmoji-Bold.ttf</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Fonts\NotoSansMono_Condensed-Medium.ttf" Condition="Exists('$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Fonts\NotoSansMono_Condensed-Medium.ttf')">
+      <NuGetPackageId>TrentCOIS.Tools.Visualization.EntityViz</NuGetPackageId>
+      <NuGetPackageVersion>0.1.5</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Fonts\NotoSansMono_Condensed-Medium.ttf</TargetPath>
+      <DestinationSubDirectory>Resources\Fonts\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Fonts\NotoSansMono_Condensed-Medium.ttf</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\OFL.txt" Condition="Exists('$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\OFL.txt')">
+      <NuGetPackageId>TrentCOIS.Tools.Visualization.EntityViz</NuGetPackageId>
+      <NuGetPackageVersion>0.1.5</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\OFL.txt</TargetPath>
+      <DestinationSubDirectory>Resources\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\OFL.txt</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\BitBonanza.xml" Condition="Exists('$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\BitBonanza.xml')">
+      <NuGetPackageId>TrentCOIS.Tools.Visualization.EntityViz</NuGetPackageId>
+      <NuGetPackageVersion>0.1.5</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Sprites\BitBonanza.xml</TargetPath>
+      <DestinationSubDirectory>Resources\Sprites\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Sprites\BitBonanza.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\BitBonanza\Clothing.png" Condition="Exists('$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\BitBonanza\Clothing.png')">
+      <NuGetPackageId>TrentCOIS.Tools.Visualization.EntityViz</NuGetPackageId>
+      <NuGetPackageVersion>0.1.5</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Sprites\BitBonanza\Clothing.png</TargetPath>
+      <DestinationSubDirectory>Resources\Sprites\BitBonanza\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Sprites\BitBonanza\Clothing.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\BitBonanza\Creatures.png" Condition="Exists('$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\BitBonanza\Creatures.png')">
+      <NuGetPackageId>TrentCOIS.Tools.Visualization.EntityViz</NuGetPackageId>
+      <NuGetPackageVersion>0.1.5</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Sprites\BitBonanza\Creatures.png</TargetPath>
+      <DestinationSubDirectory>Resources\Sprites\BitBonanza\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Sprites\BitBonanza\Creatures.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\BitBonanza\Food.png" Condition="Exists('$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\BitBonanza\Food.png')">
+      <NuGetPackageId>TrentCOIS.Tools.Visualization.EntityViz</NuGetPackageId>
+      <NuGetPackageVersion>0.1.5</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Sprites\BitBonanza\Food.png</TargetPath>
+      <DestinationSubDirectory>Resources\Sprites\BitBonanza\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Sprites\BitBonanza\Food.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\BitBonanza\GemsJewelsAndMoney.png" Condition="Exists('$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\BitBonanza\GemsJewelsAndMoney.png')">
+      <NuGetPackageId>TrentCOIS.Tools.Visualization.EntityViz</NuGetPackageId>
+      <NuGetPackageVersion>0.1.5</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Sprites\BitBonanza\GemsJewelsAndMoney.png</TargetPath>
+      <DestinationSubDirectory>Resources\Sprites\BitBonanza\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Sprites\BitBonanza\GemsJewelsAndMoney.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\BitBonanza\Instruments.png" Condition="Exists('$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\BitBonanza\Instruments.png')">
+      <NuGetPackageId>TrentCOIS.Tools.Visualization.EntityViz</NuGetPackageId>
+      <NuGetPackageVersion>0.1.5</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Sprites\BitBonanza\Instruments.png</TargetPath>
+      <DestinationSubDirectory>Resources\Sprites\BitBonanza\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Sprites\BitBonanza\Instruments.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\BitBonanza\Jewelry.png" Condition="Exists('$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\BitBonanza\Jewelry.png')">
+      <NuGetPackageId>TrentCOIS.Tools.Visualization.EntityViz</NuGetPackageId>
+      <NuGetPackageVersion>0.1.5</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Sprites\BitBonanza\Jewelry.png</TargetPath>
+      <DestinationSubDirectory>Resources\Sprites\BitBonanza\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Sprites\BitBonanza\Jewelry.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\BitBonanza\Misc.png" Condition="Exists('$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\BitBonanza\Misc.png')">
+      <NuGetPackageId>TrentCOIS.Tools.Visualization.EntityViz</NuGetPackageId>
+      <NuGetPackageVersion>0.1.5</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Sprites\BitBonanza\Misc.png</TargetPath>
+      <DestinationSubDirectory>Resources\Sprites\BitBonanza\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Sprites\BitBonanza\Misc.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\BitBonanza\MiscFuture.png" Condition="Exists('$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\BitBonanza\MiscFuture.png')">
+      <NuGetPackageId>TrentCOIS.Tools.Visualization.EntityViz</NuGetPackageId>
+      <NuGetPackageVersion>0.1.5</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Sprites\BitBonanza\MiscFuture.png</TargetPath>
+      <DestinationSubDirectory>Resources\Sprites\BitBonanza\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Sprites\BitBonanza\MiscFuture.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\BitBonanza\People.png" Condition="Exists('$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\BitBonanza\People.png')">
+      <NuGetPackageId>TrentCOIS.Tools.Visualization.EntityViz</NuGetPackageId>
+      <NuGetPackageVersion>0.1.5</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Sprites\BitBonanza\People.png</TargetPath>
+      <DestinationSubDirectory>Resources\Sprites\BitBonanza\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Sprites\BitBonanza\People.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\BitBonanza\Potions.png" Condition="Exists('$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\BitBonanza\Potions.png')">
+      <NuGetPackageId>TrentCOIS.Tools.Visualization.EntityViz</NuGetPackageId>
+      <NuGetPackageVersion>0.1.5</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Sprites\BitBonanza\Potions.png</TargetPath>
+      <DestinationSubDirectory>Resources\Sprites\BitBonanza\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Sprites\BitBonanza\Potions.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\BitBonanza\UI.png" Condition="Exists('$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\BitBonanza\UI.png')">
+      <NuGetPackageId>TrentCOIS.Tools.Visualization.EntityViz</NuGetPackageId>
+      <NuGetPackageVersion>0.1.5</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Sprites\BitBonanza\UI.png</TargetPath>
+      <DestinationSubDirectory>Resources\Sprites\BitBonanza\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Sprites\BitBonanza\UI.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\BitBonanza\Weapons.png" Condition="Exists('$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\BitBonanza\Weapons.png')">
+      <NuGetPackageId>TrentCOIS.Tools.Visualization.EntityViz</NuGetPackageId>
+      <NuGetPackageVersion>0.1.5</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Sprites\BitBonanza\Weapons.png</TargetPath>
+      <DestinationSubDirectory>Resources\Sprites\BitBonanza\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Sprites\BitBonanza\Weapons.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\BountifulBits.xml" Condition="Exists('$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\BountifulBits.xml')">
+      <NuGetPackageId>TrentCOIS.Tools.Visualization.EntityViz</NuGetPackageId>
+      <NuGetPackageVersion>0.1.5</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Sprites\BountifulBits.xml</TargetPath>
+      <DestinationSubDirectory>Resources\Sprites\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Sprites\BountifulBits.xml</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\BountifulBits\Civilized.png" Condition="Exists('$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\BountifulBits\Civilized.png')">
+      <NuGetPackageId>TrentCOIS.Tools.Visualization.EntityViz</NuGetPackageId>
+      <NuGetPackageVersion>0.1.5</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Sprites\BountifulBits\Civilized.png</TargetPath>
+      <DestinationSubDirectory>Resources\Sprites\BountifulBits\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Sprites\BountifulBits\Civilized.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\BountifulBits\Full.png" Condition="Exists('$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\BountifulBits\Full.png')">
+      <NuGetPackageId>TrentCOIS.Tools.Visualization.EntityViz</NuGetPackageId>
+      <NuGetPackageVersion>0.1.5</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Sprites\BountifulBits\Full.png</TargetPath>
+      <DestinationSubDirectory>Resources\Sprites\BountifulBits\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Sprites\BountifulBits\Full.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\BountifulBits\Natural.png" Condition="Exists('$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\BountifulBits\Natural.png')">
+      <NuGetPackageId>TrentCOIS.Tools.Visualization.EntityViz</NuGetPackageId>
+      <NuGetPackageVersion>0.1.5</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Sprites\BountifulBits\Natural.png</TargetPath>
+      <DestinationSubDirectory>Resources\Sprites\BountifulBits\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Sprites\BountifulBits\Natural.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\Circle.png" Condition="Exists('$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\Circle.png')">
+      <NuGetPackageId>TrentCOIS.Tools.Visualization.EntityViz</NuGetPackageId>
+      <NuGetPackageVersion>0.1.5</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Sprites\Circle.png</TargetPath>
+      <DestinationSubDirectory>Resources\Sprites\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Sprites\Circle.png</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\Other.xml" Condition="Exists('$(NuGetPackageRoot)trentcois.tools.visualization.entityviz\0.1.5\contentFiles\any\net6.0\Resources\Sprites\Other.xml')">
+      <NuGetPackageId>TrentCOIS.Tools.Visualization.EntityViz</NuGetPackageId>
+      <NuGetPackageVersion>0.1.5</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Resources\Sprites\Other.xml</TargetPath>
+      <DestinationSubDirectory>Resources\Sprites\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Resources\Sprites\Other.xml</Link>
+    </Content>
+  </ItemGroup>
+</Project>

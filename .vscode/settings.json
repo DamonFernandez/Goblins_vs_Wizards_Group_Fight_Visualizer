@@ -1,0 +1,20 @@
+{
+    "files.exclude": {
+        // These are excluded by default:
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        // We also want to hide build results, just so they don't clutter up the explorer.
+        "bin/": true,
+        "obj/": true,
+    },
+    // If you have the CSpell spell-checker extension installed, this will prevent it from
+    // highlighting the Goblin clans as incorrectly spelled.
+    "cSpell.words": [
+        "boko",
+        "cragmaw"
+    ],
+}

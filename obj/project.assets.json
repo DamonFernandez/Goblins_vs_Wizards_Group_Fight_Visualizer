@@ -1,0 +1,569 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Cyotek.Drawing.BitmapFont/2.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Cyotek.Drawing.BitmapFont.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Cyotek.Drawing.BitmapFont.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FontStashSharp.Base/1.1.9": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/FontStashSharp.Base.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FontStashSharp.Base.dll": {}
+        }
+      },
+      "FontStashSharp.MonoGame/1.3.7": {
+        "type": "package",
+        "dependencies": {
+          "Cyotek.Drawing.BitmapFont": "2.0.4",
+          "FontStashSharp.Base": "1.1.9",
+          "FontStashSharp.Rasterizers.StbTrueTypeSharp": "1.1.9",
+          "StbImageSharp": "2.27.14"
+        },
+        "compile": {
+          "lib/netstandard2.0/FontStashSharp.MonoGame.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FontStashSharp.MonoGame.dll": {}
+        }
+      },
+      "FontStashSharp.Rasterizers.StbTrueTypeSharp/1.1.9": {
+        "type": "package",
+        "dependencies": {
+          "FontStashSharp.Base": "1.1.9",
+          "StbTrueTypeSharp": "1.26.12"
+        },
+        "compile": {
+          "lib/netstandard2.0/FontStashSharp.Rasterizers.StbTrueTypeSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FontStashSharp.Rasterizers.StbTrueTypeSharp.dll": {}
+        }
+      },
+      "MonoGame.Framework.DesktopGL/3.8.1.303": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MonoGame.Framework.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/MonoGame.Framework.dll": {}
+        },
+        "build": {
+          "build/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libSDL2-2.0.so.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libopenal.so.1": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx/native/libSDL2.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/osx/native/libopenal.1.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/win-x64/native/SDL2.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/soft_oal.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/SDL2.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/soft_oal.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "StbImageSharp/2.27.14": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/StbImageSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/StbImageSharp.dll": {}
+        }
+      },
+      "StbTrueTypeSharp/1.26.12": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/StbTrueTypeSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/StbTrueTypeSharp.dll": {}
+        }
+      },
+      "TrentCOIS.Tools.Visualization.EntityViz/0.1.5": {
+        "type": "package",
+        "dependencies": {
+          "FontStashSharp.MonoGame": "1.3.7",
+          "MonoGame.Framework.DesktopGL": "3.8.1.303"
+        },
+        "compile": {
+          "lib/net6.0/TrentCOIS.EntityViz.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/TrentCOIS.EntityViz.dll": {
+            "related": ".xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/net6.0/Resources/Attribution.txt": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Resources/Attribution.txt"
+          },
+          "contentFiles/any/net6.0/Resources/Fonts/DungeonFont.ttf": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Resources/Fonts/DungeonFont.ttf"
+          },
+          "contentFiles/any/net6.0/Resources/Fonts/NotoEmoji-Bold.ttf": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Resources/Fonts/NotoEmoji-Bold.ttf"
+          },
+          "contentFiles/any/net6.0/Resources/Fonts/NotoSansMono_Condensed-Medium.ttf": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Resources/Fonts/NotoSansMono_Condensed-Medium.ttf"
+          },
+          "contentFiles/any/net6.0/Resources/OFL.txt": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Resources/OFL.txt"
+          },
+          "contentFiles/any/net6.0/Resources/Sprites/BitBonanza.xml": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Resources/Sprites/BitBonanza.xml"
+          },
+          "contentFiles/any/net6.0/Resources/Sprites/BitBonanza/Clothing.png": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Resources/Sprites/BitBonanza/Clothing.png"
+          },
+          "contentFiles/any/net6.0/Resources/Sprites/BitBonanza/Creatures.png": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Resources/Sprites/BitBonanza/Creatures.png"
+          },
+          "contentFiles/any/net6.0/Resources/Sprites/BitBonanza/Food.png": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Resources/Sprites/BitBonanza/Food.png"
+          },
+          "contentFiles/any/net6.0/Resources/Sprites/BitBonanza/GemsJewelsAndMoney.png": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Resources/Sprites/BitBonanza/GemsJewelsAndMoney.png"
+          },
+          "contentFiles/any/net6.0/Resources/Sprites/BitBonanza/Instruments.png": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Resources/Sprites/BitBonanza/Instruments.png"
+          },
+          "contentFiles/any/net6.0/Resources/Sprites/BitBonanza/Jewelry.png": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Resources/Sprites/BitBonanza/Jewelry.png"
+          },
+          "contentFiles/any/net6.0/Resources/Sprites/BitBonanza/Misc.png": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Resources/Sprites/BitBonanza/Misc.png"
+          },
+          "contentFiles/any/net6.0/Resources/Sprites/BitBonanza/MiscFuture.png": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Resources/Sprites/BitBonanza/MiscFuture.png"
+          },
+          "contentFiles/any/net6.0/Resources/Sprites/BitBonanza/People.png": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Resources/Sprites/BitBonanza/People.png"
+          },
+          "contentFiles/any/net6.0/Resources/Sprites/BitBonanza/Potions.png": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Resources/Sprites/BitBonanza/Potions.png"
+          },
+          "contentFiles/any/net6.0/Resources/Sprites/BitBonanza/UI.png": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Resources/Sprites/BitBonanza/UI.png"
+          },
+          "contentFiles/any/net6.0/Resources/Sprites/BitBonanza/Weapons.png": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Resources/Sprites/BitBonanza/Weapons.png"
+          },
+          "contentFiles/any/net6.0/Resources/Sprites/BountifulBits.xml": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Resources/Sprites/BountifulBits.xml"
+          },
+          "contentFiles/any/net6.0/Resources/Sprites/BountifulBits/Civilized.png": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Resources/Sprites/BountifulBits/Civilized.png"
+          },
+          "contentFiles/any/net6.0/Resources/Sprites/BountifulBits/Full.png": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Resources/Sprites/BountifulBits/Full.png"
+          },
+          "contentFiles/any/net6.0/Resources/Sprites/BountifulBits/Natural.png": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Resources/Sprites/BountifulBits/Natural.png"
+          },
+          "contentFiles/any/net6.0/Resources/Sprites/Circle.png": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Resources/Sprites/Circle.png"
+          },
+          "contentFiles/any/net6.0/Resources/Sprites/Other.xml": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Resources/Sprites/Other.xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Cyotek.Drawing.BitmapFont/2.0.4": {
+      "sha512": "iA6WehGVdMUuNbfsQQDq/Bt+mMd/OqHjiMUtKFLIQd/0pyYh4ehT7FEjTxN9/4OXNKQZsp9bAJgltP2nnswUJg==",
+      "type": "package",
+      "path": "cyotek.drawing.bitmapfont/2.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "cyotek.drawing.bitmapfont.2.0.4.nupkg.sha512",
+        "cyotek.drawing.bitmapfont.nuspec",
+        "icon.png",
+        "lib/net35/Cyotek.Drawing.BitmapFont.dll",
+        "lib/net35/Cyotek.Drawing.BitmapFont.xml",
+        "lib/net40/Cyotek.Drawing.BitmapFont.dll",
+        "lib/net40/Cyotek.Drawing.BitmapFont.xml",
+        "lib/net452/Cyotek.Drawing.BitmapFont.dll",
+        "lib/net452/Cyotek.Drawing.BitmapFont.xml",
+        "lib/net462/Cyotek.Drawing.BitmapFont.dll",
+        "lib/net462/Cyotek.Drawing.BitmapFont.xml",
+        "lib/net472/Cyotek.Drawing.BitmapFont.dll",
+        "lib/net472/Cyotek.Drawing.BitmapFont.xml",
+        "lib/net48/Cyotek.Drawing.BitmapFont.dll",
+        "lib/net48/Cyotek.Drawing.BitmapFont.xml",
+        "lib/net5.0/Cyotek.Drawing.BitmapFont.dll",
+        "lib/net5.0/Cyotek.Drawing.BitmapFont.xml",
+        "lib/netcoreapp2.1/Cyotek.Drawing.BitmapFont.dll",
+        "lib/netcoreapp2.1/Cyotek.Drawing.BitmapFont.xml",
+        "lib/netcoreapp2.2/Cyotek.Drawing.BitmapFont.dll",
+        "lib/netcoreapp2.2/Cyotek.Drawing.BitmapFont.xml",
+        "lib/netcoreapp3.1/Cyotek.Drawing.BitmapFont.dll",
+        "lib/netcoreapp3.1/Cyotek.Drawing.BitmapFont.xml",
+        "lib/netstandard1.3/Cyotek.Drawing.BitmapFont.dll",
+        "lib/netstandard1.3/Cyotek.Drawing.BitmapFont.xml",
+        "lib/netstandard2.0/Cyotek.Drawing.BitmapFont.dll",
+        "lib/netstandard2.0/Cyotek.Drawing.BitmapFont.xml",
+        "lib/netstandard2.1/Cyotek.Drawing.BitmapFont.dll",
+        "lib/netstandard2.1/Cyotek.Drawing.BitmapFont.xml"
+      ]
+    },
+    "FontStashSharp.Base/1.1.9": {
+      "sha512": "/AjkOcPNijs8vyNgcCj3FfBJbVWmsSH744hqkhLfBt8qspDz/tEoD+U09my5u9eRBX6zX+RLQ/gdCvwy+ZBOtg==",
+      "type": "package",
+      "path": "fontstashsharp.base/1.1.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fontstashsharp.base.1.1.9.nupkg.sha512",
+        "fontstashsharp.base.nuspec",
+        "lib/net471/FontStashSharp.Base.dll",
+        "lib/netstandard2.0/FontStashSharp.Base.dll"
+      ]
+    },
+    "FontStashSharp.MonoGame/1.3.7": {
+      "sha512": "pb8YCykKPrwReJJL3Yn0u7Ho3vHUMlrQcudz3gOztkAMM5PuQbURBHrDQNroz3Gghiv4AARxKf64aawbLmhygA==",
+      "type": "package",
+      "path": "fontstashsharp.monogame/1.3.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fontstashsharp.monogame.1.3.7.nupkg.sha512",
+        "fontstashsharp.monogame.nuspec",
+        "lib/netstandard2.0/FontStashSharp.MonoGame.dll"
+      ]
+    },
+    "FontStashSharp.Rasterizers.StbTrueTypeSharp/1.1.9": {
+      "sha512": "yi5iuTERem46uyHC5p+jRi3Jh8dKWzgNWLqcvHciGlyVHD1cWFdERgnxshZU4xWB2hRGnogxaCudCirbMpg4eQ==",
+      "type": "package",
+      "path": "fontstashsharp.rasterizers.stbtruetypesharp/1.1.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fontstashsharp.rasterizers.stbtruetypesharp.1.1.9.nupkg.sha512",
+        "fontstashsharp.rasterizers.stbtruetypesharp.nuspec",
+        "lib/net471/FontStashSharp.Rasterizers.StbTrueTypeSharp.dll",
+        "lib/netstandard2.0/FontStashSharp.Rasterizers.StbTrueTypeSharp.dll"
+      ]
+    },
+    "MonoGame.Framework.DesktopGL/3.8.1.303": {
+      "sha512": "eGYhqn0n1olk8MNYeE9EuBmoNNECN1T18rPMaQpkzsEQ0H3nVyFPXC+uCo78v5pi5juQpJ3PSFnSkjzZJ1U58A==",
+      "type": "package",
+      "path": "monogame.framework.desktopgl/3.8.1.303",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "build/MonoGame.Framework.DesktopGL.targets",
+        "lib/net6.0/MonoGame.Framework.dll",
+        "monogame.framework.desktopgl.3.8.1.303.nupkg.sha512",
+        "monogame.framework.desktopgl.nuspec",
+        "runtimes/linux-x64/native/libSDL2-2.0.so.0",
+        "runtimes/linux-x64/native/libopenal.so.1",
+        "runtimes/osx/native/libSDL2.dylib",
+        "runtimes/osx/native/libopenal.1.dylib",
+        "runtimes/win-x64/native/SDL2.dll",
+        "runtimes/win-x64/native/soft_oal.dll",
+        "runtimes/win-x86/native/SDL2.dll",
+        "runtimes/win-x86/native/soft_oal.dll"
+      ]
+    },
+    "StbImageSharp/2.27.14": {
+      "sha512": "4C38oL8igoocaywMr4+WDYoXwnVma3gm26heCAVgzWqO91MMPuhgqTlTT7vVpGDMo4/c0h2/zqQuAS6QxJKgmA==",
+      "type": "package",
+      "path": "stbimagesharp/2.27.14",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net471/StbImageSharp.dll",
+        "lib/netstandard2.0/StbImageSharp.dll",
+        "stbimagesharp.2.27.14.nupkg.sha512",
+        "stbimagesharp.nuspec"
+      ]
+    },
+    "StbTrueTypeSharp/1.26.12": {
+      "sha512": "hCc6/OsfcPa5VsLECcEU2m78WOshBrKwK42nAodSm9Z5wH68f7n66SoiRLCdGCkDaqbWz2TlX4zYHIjogj1HJA==",
+      "type": "package",
+      "path": "stbtruetypesharp/1.26.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net471/StbTrueTypeSharp.dll",
+        "lib/netstandard2.0/StbTrueTypeSharp.dll",
+        "stbtruetypesharp.1.26.12.nupkg.sha512",
+        "stbtruetypesharp.nuspec"
+      ]
+    },
+    "TrentCOIS.Tools.Visualization.EntityViz/0.1.5": {
+      "sha512": "AB1kOtXZ8BEBh3FIiRW8D5mgvjm0IS9FzizXgXPsTodHUQV/AcHdr9fNPfMlAtlL6u/iS3QMxMQA9P4AWSIv8A==",
+      "type": "package",
+      "path": "trentcois.tools.visualization.entityviz/0.1.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "content/Resources/Attribution.txt",
+        "content/Resources/Fonts/DungeonFont.ttf",
+        "content/Resources/Fonts/NotoEmoji-Bold.ttf",
+        "content/Resources/Fonts/NotoSansMono_Condensed-Medium.ttf",
+        "content/Resources/OFL.txt",
+        "content/Resources/Sprites/BitBonanza.xml",
+        "content/Resources/Sprites/BitBonanza/Clothing.png",
+        "content/Resources/Sprites/BitBonanza/Creatures.png",
+        "content/Resources/Sprites/BitBonanza/Food.png",
+        "content/Resources/Sprites/BitBonanza/GemsJewelsAndMoney.png",
+        "content/Resources/Sprites/BitBonanza/Instruments.png",
+        "content/Resources/Sprites/BitBonanza/Jewelry.png",
+        "content/Resources/Sprites/BitBonanza/Misc.png",
+        "content/Resources/Sprites/BitBonanza/MiscFuture.png",
+        "content/Resources/Sprites/BitBonanza/People.png",
+        "content/Resources/Sprites/BitBonanza/Potions.png",
+        "content/Resources/Sprites/BitBonanza/UI.png",
+        "content/Resources/Sprites/BitBonanza/Weapons.png",
+        "content/Resources/Sprites/BountifulBits.xml",
+        "content/Resources/Sprites/BountifulBits/Civilized.png",
+        "content/Resources/Sprites/BountifulBits/Full.png",
+        "content/Resources/Sprites/BountifulBits/Natural.png",
+        "content/Resources/Sprites/Circle.png",
+        "content/Resources/Sprites/Other.xml",
+        "contentFiles/any/net6.0/Resources/Attribution.txt",
+        "contentFiles/any/net6.0/Resources/Fonts/DungeonFont.ttf",
+        "contentFiles/any/net6.0/Resources/Fonts/NotoEmoji-Bold.ttf",
+        "contentFiles/any/net6.0/Resources/Fonts/NotoSansMono_Condensed-Medium.ttf",
+        "contentFiles/any/net6.0/Resources/OFL.txt",
+        "contentFiles/any/net6.0/Resources/Sprites/BitBonanza.xml",
+        "contentFiles/any/net6.0/Resources/Sprites/BitBonanza/Clothing.png",
+        "contentFiles/any/net6.0/Resources/Sprites/BitBonanza/Creatures.png",
+        "contentFiles/any/net6.0/Resources/Sprites/BitBonanza/Food.png",
+        "contentFiles/any/net6.0/Resources/Sprites/BitBonanza/GemsJewelsAndMoney.png",
+        "contentFiles/any/net6.0/Resources/Sprites/BitBonanza/Instruments.png",
+        "contentFiles/any/net6.0/Resources/Sprites/BitBonanza/Jewelry.png",
+        "contentFiles/any/net6.0/Resources/Sprites/BitBonanza/Misc.png",
+        "contentFiles/any/net6.0/Resources/Sprites/BitBonanza/MiscFuture.png",
+        "contentFiles/any/net6.0/Resources/Sprites/BitBonanza/People.png",
+        "contentFiles/any/net6.0/Resources/Sprites/BitBonanza/Potions.png",
+        "contentFiles/any/net6.0/Resources/Sprites/BitBonanza/UI.png",
+        "contentFiles/any/net6.0/Resources/Sprites/BitBonanza/Weapons.png",
+        "contentFiles/any/net6.0/Resources/Sprites/BountifulBits.xml",
+        "contentFiles/any/net6.0/Resources/Sprites/BountifulBits/Civilized.png",
+        "contentFiles/any/net6.0/Resources/Sprites/BountifulBits/Full.png",
+        "contentFiles/any/net6.0/Resources/Sprites/BountifulBits/Natural.png",
+        "contentFiles/any/net6.0/Resources/Sprites/Circle.png",
+        "contentFiles/any/net6.0/Resources/Sprites/Other.xml",
+        "lib/net6.0/TrentCOIS.EntityViz.dll",
+        "lib/net6.0/TrentCOIS.EntityViz.xml",
+        "trentcois.tools.visualization.entityviz.0.1.5.nupkg.sha512",
+        "trentcois.tools.visualization.entityviz.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "TrentCOIS.Tools.Visualization.EntityViz >= 0.1.5"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\damon\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Desktop\\School Projects Folder\\dsa\\assignments\\DSA-Assignment2\\Assignment2.csproj",
+      "projectName": "Assignment2",
+      "projectPath": "C:\\Desktop\\School Projects Folder\\dsa\\assignments\\DSA-Assignment2\\Assignment2.csproj",
+      "packagesPath": "C:\\Users\\damon\\.nuget\\packages\\",
+      "outputPath": "C:\\Desktop\\School Projects Folder\\dsa\\assignments\\DSA-Assignment2\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\damon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "TrentCOIS.Tools.Visualization.EntityViz": {
+            "target": "Package",
+            "version": "[0.1.5, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.31, 6.0.31]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.31, 6.0.31]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.31, 6.0.31]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.31, 6.0.31]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

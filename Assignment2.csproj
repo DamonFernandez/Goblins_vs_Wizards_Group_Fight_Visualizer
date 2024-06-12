@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- Switch to `WinExe` to disable terminal and just have MonoGame window -->
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RollForward>Major</RollForward>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Remove Linq from ImplicitUsings to prevent it from filling autocomplete list -->
+    <Using Remove="System.Linq" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Assn1-Goblins.txt" CopyToOutputDirectory="PreserveNewest"/>
+    <None Include="Resources\Assn1-Wizards.txt" CopyToOutputDirectory="PreserveNewest"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TrentCOIS.Tools.Visualization.EntityViz" Version="0.1.5" />
+  </ItemGroup>
+
+</Project>
